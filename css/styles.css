@@ -304,6 +304,10 @@ body {
   color: var(--bg-color);
 }
 
+.project--text {
+  margin-top: 5em;
+}
+
 .buttons {
   display: flex;
   justify-content: space-between;
