@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="assets/icons/codelogo.svg" type="image/x-icon">
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+  <!-- HEADER -->
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="./assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="#3182ed" class="colors__item colors__item--blue"></div>
+        <div data-color="#31ed8f" class="colors__item colors__item--green"></div>
+        <div data-color="#a231ed" class="colors__item colors__item--purple"></div>
+        <div data-color="#edc131" class="colors__item colors__item--orange"></div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+    <!-- LEFT COLUMN -->
+      <section class="column column--left">
+        <!-- PROFILE -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="./assets/images/profile.jpg" alt="Photo Profile" />
+          </div>
+          <div class="card__header">
+            <h2 class="card__title">Astor Dioguardi</h2>
+            <p class="card__subtitle">Frontend & Backend Developer</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:astor.dioguardi@hotmail.com">astor.dioguardi@hotmail.com</a>
+            </div>
+            <div class="card__link">
+              <i class="fab fa-whatsapp icon"></i>
+              <a href="https://wa.me/393474933243">+39-34-7493-3243</a>
+            </div>
+            <div class="card__link">
+              <i class="fab fa-linkedin icon"></i>
+              <a href="https://www.linkedin.com/in/astor-dioguardi-2774b6129/" target="_blank">LinkedIn</a>
+            </div>
+            <div class="card__link">
+              <i class="fab fa-github icon"></i>
+              <a href="https://github.com/AstorDioguardi/" target="_blank">GitHub</a>
+            </div>
+            <p class="card__text">
+              Soy un junior de programación web en busca de mi primer trabajo profesional, he estudiado las técnicas para afrontar desarrollo web Fullstack. Utilizando las tecnologías HTML, CSS, Js, Git, Nodje.js y MySQL.
+              <br />
+              Mi objetivo es poder plasmar mis conocimientos adquiridos y poder aprender nuevas herramientas en el hámbito laboral para convertirme en un profesional del rubro.
+            </p>
+          </div>
+        </article>
+
+        <!-- LANGUAGES -->
+        <article class="card">
+          <h2 class="card__title">Idiomas:</h2>
+          <div class="card--languages">
+            <div>
+              <p class="card__text">Español</p>
+              <p class="card__text">Inglés</p>
+              <p class="card__text">Italiano</p>
+            </div>
+            <div>
+              <p class="card__text">-</p>
+              <p class="card__text">-</p>
+              <p class="card__text">-</p>
+            </div>
+            <div>
+              <p class="card__text">Nativo</p>
+              <p class="card__text">C1</p>
+              <p class="card__text">B1</p>
+            </div>
+          </div>
+          <!-- <p class="card__text">
+            Español - Nativo <br />
+            Inglés - C1 <br />
+            Italiano - B1
+          </p> -->
+        </article>
+
+        <!-- EXPERIENCE -->
+        <article class="card card--experience">
+          <h2 class="card__title">Experiencia Laboral</h2>
+          <div class="experience">
+            <div class="experience__info">
+              <p class="experience__time">
+                Abril 2021 - Febrero 2024
+              </p>
+              <h3 class="experience__job">I-GUL FACTORY</h3>
+              <p class="experience__description">
+                - Ensamblaje de componentes. <br />
+                - Operación de máquinas perforadoras. <br />
+                - Organización de estantes y productos.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience__info">
+              <p class="experience__time">
+                Julio 2017 - Marzo 2021
+              </p>
+              <h3 class="experience__job">NETACOM</h3>
+              <p class="experience__description">
+                1ra posición administrativa: <br />
+                - Coordinación de citas técnicas con clientes. <br />
+                - Brindar soporte telefónico a técnicos de campo. <br />
+                - Programación de rutas de trabajo para técnicos. <br />
+                - Contacto con la administración de edificios para solicitudes de servicio, obtención de planos y coordinación de visitas de instalación.
+              </p>
+              <p class="experience__description">
+                2da posición administrativa: <br />
+                - Gestión de inventario/stock de productos <br />
+                - Inspección de condición de vehículos <br />
+                - Monitoreo del uso del GPS de los vehículos fuera del horario laboral y control de infracciones.
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="experience__info">
+              <p class="experience__time">
+                Enero 2014 - Diciembre 2016
+              </p>
+              <h3 class="experience__job">GRAFISUR SERIGRAFÍA</h3>
+              <p class="experience__description">
+                - Creación de diseños utilizando el software de edición Photoshop. <br />
+                - Diseño de camiseta, señales de tráfico, volantes, publicidades, tarjetas de presentación y gráficos de vinilo.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- STUDIES -->
+        <article class="card card__studies">
+          <h2 class="card__title">Estudios</h2>
+          <div>
+            <h3 class="study__title">Codo a Codo</h3>
+            <p class="card__text study__text">
+              Fullstack Node.js developer - 2023
+            </p>
+          </div>
+          <div>
+            <h3 class="study__title">Da Vinci - Escuela de arte multimedial</h3>
+            <p class="card__text study__text">
+              Modelado 3D y Render - 2019
+            </p>
+          </div>
+          <div>
+            <h3 class="study__title">Animaclick</h3>
+            <p class="card__text study__text">
+              Animación y efectos 3D - 2018
+            </p>
+          </div>
+          <div>
+            <h3 class="study__title">Instituto Santa Ana</h3>
+            <p class="card__text study__text">
+              Administración y Economía - 2013
+            </p>
+          </div>
+        </article>
+      </section>
+
+    <!-- RIGHT COLUMN -->
+      <section class="column column--right">
+        <!-- KNOWLEDGES -->
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+            <div class="skills">
+              <div class="skills__item">
+                <i class="fab fa-html5 icon icon-skills"></i>
+                <p class="skills__tech">HTML</p>
+                <div class="skills__bar skills__bar--10"></div>
+              </div>
+              <div class="skills__item">
+                <i class="fab fa-css3-alt icon icon-skills"></i>
+                <p class="skills__tech">CSS</p>
+                <div class="skills__bar skills__bar--10"></div>
+              </div>
+              <div class="skills__item">
+                <i class="fab fa-js icon icon-skills"></i>
+                <p class="skills__tech">JavaScript</p>
+                <div class="skills__bar skills__bar--10"></div>
+              </div>
+              <div class="skills__item">
+                <i class="fab fa-react icon icon-skills"></i>
+                <p class="skills__tech">React</p>
+                <div class="skills__bar skills__bar--0"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Diseño</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+            <div class="skills">
+              <div class="skills__item">
+                <i class="icon icon-skills icon-skills-img"><img class="skills__img" src="./assets/icons/ps.svg" alt="Ps logo"></i>
+                <p class="skills__tech">Photoshop</p>
+                <div class="skills__bar skills__bar--30"></div>
+              </div>
+              <div class="skills__item">
+                <i class="icon icon-skills icon-skills-img"><img class="skills__img" src="./assets/icons/Ai.svg" alt="Ai logo"></i>
+                <p class="skills__tech">Illustrator</p>
+                <div class="skills__bar skills__bar--20"></div>
+              </div>
+              <div class="skills__item">
+                <i class="icon icon-skills icon-skills-img"><img class="skills__img" src="./assets/icons/3DsMax.svg" alt="3Ds logo"></i>
+                <p class="skills__tech">3Ds Max</p>
+                <div class="skills__bar skills__bar--40"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Multimedia</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+              <div class="skills__item">
+                <i class="icon icon-skills icon-skills-img"><img class="skills__img" src="./assets/icons/AE.svg" alt="AE logo"></i>
+                <p class="skills__tech">After Effects</p>
+                <div class="skills__bar skills__bar--10"></div>
+              </div>
+          </div>
+        </article>
+
+        <!-- PROJECTS -->
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="./assets/images/funkoshop.png" alt="Shop Website" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Shop Website</h2>
+            <p class="card__text">Sitio web de venta de productos con temática de los muñecos Funko Pop. Diseñado con HTML, CSS y Js, y desarrollado un backend con NodeJs con dependencias express, session, validator, dotenv, ejs, cookie-parser, multer, mysql2 y sequelize.</p>
+            <div class="buttons">
+              <a href="" class="button button--primary" target="_blank">Demo</a>
+              <a href="https://github.com/AstorDioguardi/Challenge-Integrador" class="button button--ghost" target="_blank">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="./assets/images/calculator.png" alt="Calculadora" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+            </div>
+            <h2 class="card__title">Calculadora</h2>
+            <p class="card__text">Calculadora virtual diseñada en HTML, CSS y Js, para realizar cálculos matemáticos básicos.</p>
+            <div class="buttons">
+              <a href="" class="button button--primary" target="_blank">Demo</a>
+              <a href="https://github.com/AstorDioguardi/Calcuator" class="button button--ghost" target="_blank">Code</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
