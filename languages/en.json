@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "rol": "Frontend & Backend Developer",
+    "description": "I am a junior web developer seeking my first professional job. I have studied techniques for Fullstack web development, utilizing HTML, CSS, JavaScript, Git, Node.js, and MySQL technologies.<br />My goal is to apply the knowledge I have acquired and to learn new tools in the professional environment to become a proficient industry professional."
+  },
+  "languages": {
+    "language-title": "Languages:",
+    "first-language": "Spanish",
+    "second-language": "English",
+    "third-language": "Italian",
+    "language-description": "Native"
+  },
+  "experiences": {
+    "experience-title": "Work Experience",
+    "third-job-dates": "April 2021 - February 2024",
+    "third-job-description": "- Component assembly.<br />- Operation of drilling machines.<br />- Organization of shelves and products.",
+    "second-job-dates": "July 2017 - March 2021",
+    "second-job-first-description": "1st administrative position:<br />- Coordination of technical appointments with clients.<br />- Providing telephone support to field technicians.<br /> - Scheduling work routes for technicians.<br />- Contacting building administration for service requests, obtaining blueprints, and coordinating installation visits.",
+    "second-job-second-description": "2nd administrative position:<br />- Inventory/stock management of products.<br />- Inspection of vehicle conditions.<br />- Monitoring GPS usage of vehicles outside of working hours and enforcement of violations.",
+    "first-job-dates": "January 2014 - December 2016",
+    "first-job-description": "- Creation of designs using Photoshop editing software.<br />- Design of T-shirts, traffic signs, flyers, advertisements, business cards, and vinyl graphics."
+  },
+  "studies": {
+    "study-title": "Studies",
+    "fourth-study-description": "Fullstack Node.js Developer- 2023",
+    "third-study-title": "Da Vinci - Multimedia Art School",
+    "third-study-description": "3D Modeling and Rendering - 2019",
+    "second-study-description": "Animation and 3D Effects - 2018",
+    "first-study-title": "Santa Ana Institute",
+    "first-study-description": "Administration and Economics - 2013"
+  },
+  "knowledges": {
+    "experience-time": "Years of experience",
+    "design-title": "Design"
+  },
+  "projects": {
+    "second-project-description": "Website for selling products themed around Funko Pop figures. Designed with HTML, CSS, and Js, and developed a backend with NodeJs using dependencies like express, session, validator, dotenv, ejs, cookie-parser, multer, mysql2, and sequelize.",
+    "first-project-title": "Calculator",
+    "first-project-description": "Virtual calculator designed in HTML, CSS, and Js for basic mathematical calculations."
+  }
+}

@@ -14,8 +14,19 @@
     <header class="header">
       <div class="switches">
         <div id="toggle-theme" class="toggle-theme">
-          <img id="toggle-icon" src="./assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+          <img id="toggle-icon" src="./assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon" />
           <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="./assets/icons/flag-es.svg" alt="es" class="flags__img"/>
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="./assets/icons/flag-gb.svg" alt="en" class="flags__img"/>
+        </div>
+        <div class="flags__item" data-language="it">
+          <img src="./assets/icons/flag-it.svg" alt="it" class="flags__img"/>
         </div>
       </div>
       <div id="toggle-colors" class="colors">
@@ -26,7 +37,7 @@
       </div>
     </header>
 
-    <!-- MAIN -->
+  <!-- MAIN -->
     <main class="main">
     <!-- LEFT COLUMN -->
       <section class="column column--left">
@@ -37,7 +48,7 @@
           </div>
           <div class="card__header">
             <h2 class="card__title">Astor Dioguardi</h2>
-            <p class="card__subtitle">Frontend & Backend Developer</p>
+            <p class="card__subtitle" data-section="profile" data-value="rol">Desarrollador Frontend & Backend</p>
           </div>
           <div class="card__body">
             <div class="card__link">
@@ -56,7 +67,7 @@
               <i class="fab fa-github icon"></i>
               <a href="https://github.com/AstorDioguardi/" target="_blank">GitHub</a>
             </div>
-            <p class="card__text">
+            <p class="card__text" data-section="profile" data-value="description">
               Soy un junior de programación web en busca de mi primer trabajo profesional, he estudiado las técnicas para afrontar desarrollo web Fullstack. Utilizando las tecnologías HTML, CSS, Js, Git, Nodje.js y MySQL.
               <br />
               Mi objetivo es poder plasmar mis conocimientos adquiridos y poder aprender nuevas herramientas en el hámbito laboral para convertirme en un profesional del rubro.
@@ -66,12 +77,12 @@
 
         <!-- LANGUAGES -->
         <article class="card">
-          <h2 class="card__title">Idiomas:</h2>
+          <h2 class="card__title" data-section="languages" data-value="language-title">Idiomas:</h2>
           <div class="card--languages">
             <div>
-              <p class="card__text">Español</p>
-              <p class="card__text">Inglés</p>
-              <p class="card__text">Italiano</p>
+              <p class="card__text" data-section="languages" data-value="first-language">Español</p>
+              <p class="card__text" data-section="languages" data-value="second-language">Inglés</p>
+              <p class="card__text" data-section="languages" data-value="third-language">Italiano</p>
             </div>
             <div>
               <p class="card__text">-</p>
@@ -79,28 +90,23 @@
               <p class="card__text">-</p>
             </div>
             <div>
-              <p class="card__text">Nativo</p>
+              <p class="card__text" data-section="languages" data-value="language-description">Nativo</p>
               <p class="card__text">C1</p>
               <p class="card__text">B1</p>
             </div>
           </div>
-          <!-- <p class="card__text">
-            Español - Nativo <br />
-            Inglés - C1 <br />
-            Italiano - B1
-          </p> -->
         </article>
 
         <!-- EXPERIENCE -->
         <article class="card card--experience">
-          <h2 class="card__title">Experiencia Laboral</h2>
+          <h2 class="card__title" data-section="experiences" data-value="experience-title">Experiencia Laboral</h2>
           <div class="experience">
             <div class="experience__info">
-              <p class="experience__time">
+              <p class="experience__time" data-section="experiences" data-value="third-job-dates">
                 Abril 2021 - Febrero 2024
               </p>
               <h3 class="experience__job">I-GUL FACTORY</h3>
-              <p class="experience__description">
+              <p class="experience__description" data-section="experiences" data-value="third-job-description">
                 - Ensamblaje de componentes. <br />
                 - Operación de máquinas perforadoras. <br />
                 - Organización de estantes y productos.
@@ -109,18 +115,18 @@
           </div>
           <div class="experience">
             <div class="experience__info">
-              <p class="experience__time">
+              <p class="experience__time" data-section="experiences" data-value="second-job-dates">
                 Julio 2017 - Marzo 2021
               </p>
               <h3 class="experience__job">NETACOM</h3>
-              <p class="experience__description">
+              <p class="experience__description" data-section="experiences" data-value="second-job-first-description">
                 1ra posición administrativa: <br />
                 - Coordinación de citas técnicas con clientes. <br />
                 - Brindar soporte telefónico a técnicos de campo. <br />
                 - Programación de rutas de trabajo para técnicos. <br />
                 - Contacto con la administración de edificios para solicitudes de servicio, obtención de planos y coordinación de visitas de instalación.
               </p>
-              <p class="experience__description">
+              <p class="experience__description" data-section="experiences" data-value="second-job-second-description">
                 2da posición administrativa: <br />
                 - Gestión de inventario/stock de productos <br />
                 - Inspección de condición de vehículos <br />
@@ -130,11 +136,11 @@
           </div>
           <div class="experience">
             <div class="experience__info">
-              <p class="experience__time">
+              <p class="experience__time" data-section="experiences" data-value="first-job-dates">
                 Enero 2014 - Diciembre 2016
               </p>
               <h3 class="experience__job">GRAFISUR SERIGRAFÍA</h3>
-              <p class="experience__description">
+              <p class="experience__description" data-section="experiences" data-value="first-job-description">
                 - Creación de diseños utilizando el software de edición Photoshop. <br />
                 - Diseño de camiseta, señales de tráfico, volantes, publicidades, tarjetas de presentación y gráficos de vinilo.
               </p>
@@ -144,30 +150,22 @@
 
         <!-- STUDIES -->
         <article class="card card__studies">
-          <h2 class="card__title">Estudios</h2>
+          <h2 class="card__title" data-section="studies" data-value="study-title">Estudios</h2>
           <div>
             <h3 class="study__title">Codo a Codo</h3>
-            <p class="card__text study__text">
-              Fullstack Node.js developer - 2023
-            </p>
+            <p class="card__text study__text" data-section="studies" data-value="fourth-study-description">Desarrollo Fullstack Node.js - 2023</p>
           </div>
           <div>
-            <h3 class="study__title">Da Vinci - Escuela de arte multimedial</h3>
-            <p class="card__text study__text">
-              Modelado 3D y Render - 2019
-            </p>
+            <h3 class="study__title" data-section="studies" data-value="third-study-title">Da Vinci - Escuela de arte multimedial</h3>
+            <p class="card__text study__text" data-section="studies" data-value="third-study-description">Modelado 3D y Render - 2019</p>
           </div>
           <div>
             <h3 class="study__title">Animaclick</h3>
-            <p class="card__text study__text">
-              Animación y efectos 3D - 2018
-            </p>
+            <p class="card__text study__text" data-section="studies" data-value="second-study-description">Animación y efectos 3D - 2018</p>
           </div>
           <div>
-            <h3 class="study__title">Instituto Santa Ana</h3>
-            <p class="card__text study__text">
-              Administración y Economía - 2013
-            </p>
+            <h3 class="study__title" data-section="studies" data-value="first-study-title">Instituto Santa Ana</h3>
+            <p class="card__text study__text" data-section="studies" data-value="first-study-description">Administración y Economía - 2013</p>
           </div>
         </article>
       </section>
@@ -177,7 +175,7 @@
         <!-- KNOWLEDGES -->
         <article class="card">
           <h2 class="card__title">Front End</h2>
-          <small>Años de experiencia</small>
+          <small data-section="knowledges" data-value="experience-time">Años de experiencia</small>
           <div class="skills">
             <div class="skills__header">
               <span class="skills__start-level">0</span>
@@ -208,8 +206,8 @@
           </div>
         </article>
         <article class="card">
-          <h2 class="card__title">Diseño</h2>
-          <small>Años de experiencia</small>
+          <h2 class="card__title" data-section="knowledges" data-value="design-title">Diseño</h2>
+          <small data-section="knowledges" data-value="experience-time">Años de experiencia</small>
           <div class="skills">
             <div class="skills__header">
               <span class="skills__start-level">0</span>
@@ -236,7 +234,7 @@
         </article>
         <article class="card">
           <h2 class="card__title">Multimedia</h2>
-          <small>Años de experiencia</small>
+          <small data-section="knowledges" data-value="experience-time">Años de experiencia</small>
           <div class="skills">
             <div class="skills__header">
               <span class="skills__start-level">0</span>
@@ -265,7 +263,7 @@
               <span class="project__tag">#Responsive</span>
             </div>
             <h2 class="card__title">Shop Website</h2>
-            <p class="card__text project--text">Sitio web de venta de productos con temática de los muñecos Funko Pop. Diseñado con HTML, CSS y Js, y desarrollado un backend con NodeJs con dependencias express, session, validator, dotenv, ejs, cookie-parser, multer, mysql2 y sequelize.</p>
+            <p class="card__text project--text" data-section="projects" data-value="second-project-description">Sitio web de venta de productos con temática de los muñecos Funko Pop. Diseñado con HTML, CSS y Js, y desarrollado un backend con NodeJs con dependencias express, session, validator, dotenv, ejs, cookie-parser, multer, mysql2 y sequelize.</p>
             <div class="buttons">
               <a href="" class="button button--primary" target="_blank">Demo</a>
               <a href="https://github.com/AstorDioguardi/Challenge-Integrador" class="button button--ghost" target="_blank">Code</a>
@@ -282,8 +280,8 @@
               <span class="project__tag">#CSS</span>
               <span class="project__tag">#JavaScript</span>
             </div>
-            <h2 class="card__title">Calculadora</h2>
-            <p class="card__text project--text">Calculadora virtual diseñada en HTML, CSS y Js, para realizar cálculos matemáticos básicos.</p>
+            <h2 class="card__title" data-section="projects" data-value="first-project-title">Calculadora</h2>
+            <p class="card__text project--text" data-section="projects" data-value="first-project-description">Calculadora virtual diseñada en HTML, CSS y Js, para realizar cálculos matemáticos básicos.</p>
             <div class="buttons">
               <a href="" class="button button--primary" target="_blank">Demo</a>
               <a href="https://github.com/AstorDioguardi/Calcuator" class="button button--ghost" target="_blank">Code</a>
@@ -292,6 +290,8 @@
         </article>
       </section>
     </main>
-    <script src="js/scripts.js"></script>
+    <script src="./js/scripts.js"></script>
+    <script src="./js/theme.js"></script>
+    <script src="./js/language.js"></script>
   </body>
 </html>

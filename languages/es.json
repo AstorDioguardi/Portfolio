@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "rol": "Desarrollador Frontend & Backend",
+    "description": "Soy un junior de programación web en busca de mi primer trabajo profesional, he estudiado las técnicas para afrontar desarrollo web Fullstack. Utilizando las tecnologías HTML, CSS, Js, Git, Nodje.js y MySQL.<br />Mi objetivo es poder plasmar mis conocimientos adquiridos y poder aprender nuevas herramientas en el hámbito laboral para convertirme en un profesional del rubro."
+  },
+  "languages": {
+    "language-title": "Idiomas:",
+    "first-language": "Español",
+    "second-language": "Inglés",
+    "third-language": "Italiano",
+    "language-description": "Nativo"
+  },
+  "experiences": {
+    "experience-title": "Experiencia Laboral",
+    "third-job-dates": "Abril 2021 - Febrero 2024",
+    "third-job-description": "- Ensamblaje de componentes.<br />- Operación de máquinas perforadoras.<br />- Organización de estantes y productos.",
+    "second-job-dates": "Julio 2017 - Marzo 2021",
+    "second-job-first-description": "1ra posición administrativa:<br />- Coordinación de citas técnicas con clientes.<br />- Brindar soporte telefónico a técnicos de campo.<br /> - Programación de rutas de trabajo para técnicos.<br />- Contacto con la administración de edificios para solicitudes de servicio, obtención de planos y coordinación de visitas de instalación.",
+    "second-job-second-description": "2da posición administrativa:<br />- Gestión de inventario/stock de productos.<br />- Inspección de condición de vehículos.<br />- Monitoreo del uso del GPS de los vehículos fuera del horario laboral y control de infracciones.",
+    "first-job-dates": "Enero 2014 - Diciembre 2016",
+    "first-job-description": "- Creación de diseños utilizando el software de edición Photoshop.<br />- Diseño de camiseta, señales de tráfico, volantes, publicidades, tarjetas de presentación y gráficos de vinilo."
+  },
+  "studies": {
+    "study-title": "Estudios",
+    "fourth-study-description": "Desarrollo Fullstack Node.js - 2023",
+    "third-study-title": "Da Vinci - Escuela de arte multimedial",
+    "third-study-description": "Modelado 3D y Render - 2019",
+    "second-study-description": "Animación y efectos 3D - 2018",
+    "first-study-title": "Instituto Santa Ana",
+    "first-study-description": "Administración y Economía - 2013"
+  },
+  "knowledges": {
+    "experience-time": "Años de experiencia",
+    "design-title": "Diseño"
+  },
+  "projects": {
+    "second-project-description": "Sitio web de venta de productos con temática de los muñecos Funko Pop. Diseñado con HTML, CSS y Js, y desarrollado un backend con NodeJs con dependencias express, session, validator, dotenv, ejs, cookie-parser, multer, mysql2 y sequelize.",
+    "first-project-title": "Calculadora",
+    "first-project-description": "Calculadora virtual diseñada en HTML, CSS y Js, para realizar cálculos matemáticos básicos."
+  }
+}
