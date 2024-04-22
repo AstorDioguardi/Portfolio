@@ -34,6 +34,8 @@
     "design-title": "Diseño"
   },
   "projects": {
+    "third-project-title": "Calculadora 2",
+    "third-project-description": "Calculadora virtual diseñada en HTML, CSS, Js y React, para realizar cálculos matemáticos básicos.",
     "second-project-description": "Sitio web de venta de productos con temática de los muñecos Funko Pop. Diseñado con HTML, CSS y Js, y desarrollado un backend con NodeJs con dependencias express, session, validator, dotenv, ejs, cookie-parser, multer, mysql2 y sequelize.",
     "first-project-title": "Calculadora",
     "first-project-description": "Calculadora virtual diseñada en HTML, CSS y Js, para realizar cálculos matemáticos básicos."

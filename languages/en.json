@@ -34,6 +34,8 @@
     "design-title": "Design"
   },
   "projects": {
+    "third-project-title": "Calculator 2",
+    "third-project-description": "Virtual calculator designed in HTML, CSS, Js and React for basic mathematical calculations.",
     "second-project-description": "Website for selling products themed around Funko Pop figures. Designed with HTML, CSS, and Js, and developed a backend with NodeJs using dependencies like express, session, validator, dotenv, ejs, cookie-parser, multer, mysql2, and sequelize.",
     "first-project-title": "Calculator",
     "first-project-description": "Virtual calculator designed in HTML, CSS, and Js for basic mathematical calculations."
