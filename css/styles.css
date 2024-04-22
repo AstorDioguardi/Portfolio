@@ -417,3 +417,9 @@ body {
     bottom: 1em;
   }
 }
+
+@media screen and (max-width: 426px) {
+  .main {
+    padding-top: 6em;
+  }
+}
