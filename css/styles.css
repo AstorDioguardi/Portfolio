@@ -65,6 +65,7 @@ body {
 
 .toggle-theme__text {
   font-size: .8rem;
+  user-select: none;
 }
 
 .flags {
