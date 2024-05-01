@@ -36,8 +36,8 @@
     "projects": {
       "fourth-project-title": "Cose da Fare",
       "fourth-project-description": "Sito Web per aggiungere un elenco di attività, in cui è possibile aggiungere l'attività desiderata da completare, contrassegnarla come completata o eliminarla dall'elenco.",
-      "third-project-title": "Calcolatrice 2",
-      "third-project-description": "Calcolatrice virtuale progettata in HTML, CSS, Js e React, per eseguire calcoli matematici di base.",
+      "third-project-title": "Shop Sportivo",
+      "third-project-description": "Sito web di base per l'acquisto di prodotti sportivi. Realizzare la funzionalità del carrello con JavaScript.",
       "second-project-description": "Sito web per la vendita di prodotti a tema Funko Pop. Progettato con HTML, CSS e Js, e sviluppato un backend con NodeJs con dipendenze express, session, validator, dotenv, ejs, cookie-parser, multer, mysql2 e sequelize.",
       "first-project-title": "Calcolatrice",
       "first-project-description": "Calcolatrice virtuale progettata in HTML, CSS e Js, per eseguire calcoli matematici di base."
